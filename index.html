@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>
+            Student's Registration Form
+        </title>
+    </head>
+    <style>
+        form{
+            width:32%;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 5px;
+            border: 1px solid white;
+            
+        }
+
+        .lbl{
+            float:left;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+        .inp{
+            float: right;
+            height: 30px;
+            width: 200px;
+            border-radius: 4px;
+            border: none;
+            
+        }
+        #sub{
+            height:30px;
+            width: 70px;
+            font-size: 16px;
+            background-color: seagreen;
+            color: rgb(211, 19, 19);
+            border-radius: 5px;
+            border: 1px solid white;
+            letter-spacing: 2px;
+            padding: 2px;
+        }
+    
+
+    </style>
+    <body style="background-color: seagreen;">
+        <center>
+            <form method="get" action="submitValue">
+                <h1 style="color: red;">Student's Registration Form</h1>
+                <hr><br>
+                <label class="lbl">Roll no. :</label>
+                <input class="inp" type="text" required><br><br>
+                <lanel class="lbl">Student name :</lanel>
+                <input class="inp" type="text" required><br><br>
+                <label class="lbl">Father's name :</label>
+                <input class="inp" type=""text required><br><br>
+
+                <label class="lbl">Date of birth :</label>
+                <input class="inp" type="date" required><br><br>
+                <label class="lbl">Mobile no. :</label>
+                <input class="inp" type="number" required><br><br>
+                <label class="lbl">Email :</label>
+                <input class="inp" type="email" required><br><br>
+                <label class="lbl">Password :</label>
+                <input class="inp" type="Password" required><br><br>
+                
+
+                <label class="lbl">Gender :</label>
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                <input type="radio" name="gender" required><label for="male">Male</label>
+                <input type="radio" name="gender" required><label for="female">Female</label>
+                <input type="radio" name="gender" required><label for="others">Others</label><br><br>
+
+                <label class="lbl">Department :</label>
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <input type="checkbox" name="department"><label>B.Tech</label>
+                <input type="checkbox" name="department"><label>MCA</label>
+                <input type="checkbox" name="department"><label>MSc</label><br><br>
+                
+                <label class="lbl">Student photo :</label>
+                <input class="inp" type="file" required><br><br>
+
+                
+                <label class="lbl">Address :</label>
+                <input class="inp" type="text" required><br><br><br>
+
+                <input id="sub" type="submit"><br><br>
+
+
+            </form>
+        </center>
+    </body>
+</html>
